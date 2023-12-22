@@ -1,0 +1,6 @@
+applicationType: cli
+defaultPackage: org.saltations.monk
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle
+features: [app-name, github-workflow-ci, graalvm, gradle, http-client-test, java, junit, logback, lombok, micronaut-build, mockito, picocli, picocli-java-application, picocli-junit, readme, serialization-jackson, shade, yaml, yaml-build]
