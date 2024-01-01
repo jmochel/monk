@@ -17,6 +17,9 @@ dependencies {
     implementation("info.picocli:picocli")
     implementation("io.micronaut.picocli:micronaut-picocli")
     implementation("io.micronaut.serde:micronaut-serde-jackson")
+    implementation("com.google.guava:guava:32.1.3-jre")
+    implementation("org.antlr:ST4:4.3.4")
+
     compileOnly("org.projectlombok:lombok")
     runtimeOnly("ch.qos.logback:logback-classic")
     runtimeOnly("org.yaml:snakeyaml")
